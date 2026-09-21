@@ -9,7 +9,7 @@ import { LanguageProvider } from "@/lib/language.tsx"
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <ThemeProvider defaultTheme="light">
+    <ThemeProvider defaultTheme="dark">
       <LanguageProvider>
         <BrowserRouter>
           <App />
